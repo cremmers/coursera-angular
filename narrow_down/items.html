@@ -1,0 +1,10 @@
+<div class="loader">
+	<ol>
+		<li ng-repeat="item in items">
+			{{ item.description }}
+			<button ng-click="onRemove({index: $index});">Remove Item</button>
+		</li>		
+	</ol>
+</div>
+
+
